@@ -59,7 +59,7 @@ Professor: Geneflides Laureno
 ## Links 
 
 * [Instituto Conhecimento Liberta](https://icl.com.br/); 
-* [Link deste projeto]();
+* [Link deste projeto no Google Colab | Link to this project at Google Colab](https://colab.research.google.com/drive/1l0k_mtR5N7aHmWi1HtKUl1EXvJvX0rao?usp=sharing);
 * [Google Colab](https://colab.research.google.com/)
 * [Inicial maiúscula em Python | Capital Initial in Python](https://www.delftstack.com/pt/howto/python/python-capitalize-first-letter/)
 
