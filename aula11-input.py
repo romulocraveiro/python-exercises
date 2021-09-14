@@ -8,7 +8,8 @@
 print ("Digite o seu nome")
 nome = input()
 qtde = len(nome)
-print("A quantidade de caracteres no seu nome é ", qtde)
+print("A quantidade de caracteres no\
+seu nome é ", qtde) # É possível usar \ para que o código continue na linha seguinte.
 
 #Código fonte Exemplo 3 - Calcular qtde de vogais "a"
 # print ("Digite o seu nome")

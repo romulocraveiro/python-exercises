@@ -21,6 +21,14 @@ Professor: Geneflides Laureno
 
 * _Use function  count( )  to count how many times a character chain (word in this case) appears in input. See tarefa-de-casa-aula11.py file._
 
+* Para fazer um comentário no código, use # em cada linha (não há recurso de comentário multilinhas, como /*...*/).
+
+* _To make a comment in your code, use a # in each line (there isn't a feature to make multiline comments like /*...*/)_
+
+* Sua linha de código está muito longa? Use \ para continuar na linha seguinte, mas atente para o espaço entre palavras.
+
+* _Is your line of code too long? Use \ to continue in the next line, but mind the spaces between words._
+
 * Use a função lower( ) para normatizar o input de modo que todas as cadeias de caracteres fiquem com letra minúscula. Ver aula12-count-lower.py
 
 * _Use function lower ( ) to standardize input in such a way that the character chains are lower cased. See aula12-count-lower.py file._
@@ -41,7 +49,7 @@ Professor: Geneflides Laureno
 
 * _If you want to print the last words of a list (for example, the last 5), use this syntax: variable[-5:]. Although the last position is -1, if we insert it after the colon, the last term will not be printed, but the  second to last one instead. See homework-class14.py file._
 
-* Para transformar um input (string por padrão) em número inteiro, use a sintaxe <variável = int(input())
+* Para transformar um input (string por padrão) em número inteiro, use a sintaxe <variável = int(input())>
 
 * _To convert an input (string by default) into an integer, use the syntax <variable = int(input())>._
 
