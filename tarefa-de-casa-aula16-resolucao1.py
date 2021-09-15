@@ -16,6 +16,6 @@ if idade < 75:
 else: 
     print("Digite o seu nome: ")
     nome = input()
-    print("De acordo com os dados informados, o seu nome é", nome, "e você tem", idade, "anos." )
-    print("Para fazer o agendamento, ligue para 3333 32333 ou clique aqui.")
+    print("\nDe acordo com os dados informados, o seu nome é", nome, "e você tem", idade, "anos." )
+    print("Para fazer o agendamento, ligue para 3333 32333 ou clique aqui.\n")
 
