@@ -57,6 +57,9 @@ Professor: Geneflides Laureno
 
 * _If / else doesn't need curly braces in Python (that's great, isn't it?); see class15-if-else-int-input.py._
 
+* Entretanto, o que conta no caso dos operadores de controle são as indentações. Por convenção, 4 espaços, mas fica a critério do usuário, desde que se mantenha consistente. Ver tarefa-de-casa-aula16-resolucao1.py
+
+* _However, what matters in the case of control operators is the indentation. By convention, 4 spaces, but it is up to the user, as soon as they are consistent. See tarefa-de-casa-aula16-resolucao1.py_ 
   
 
 ## Tecnologias / Technologies
