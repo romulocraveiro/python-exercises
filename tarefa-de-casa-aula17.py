@@ -20,7 +20,7 @@ else:
             print("\nDigite o seu nome:")
             nome = input()
             print("\nDe acordo com os dados informados, o seu nome é", nome, "e você tem", idade, "anos.")
-            print("Agora, escolha se quer se vacinar: digite C se quiser que seja em casa ou S se quiser que seja no shopping:")
+            print("Agora, escolha como quer se vacinar: digite C se quiser que seja em casa, ou S se quiser que seja no shopping:")
             opcao = input()
             uppercase = opcao.upper()
         
