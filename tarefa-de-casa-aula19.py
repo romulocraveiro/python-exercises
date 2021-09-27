@@ -7,6 +7,7 @@
 # 3) Caso o usuário tenha menos de 16 anos:
 #     3.1 - informe ao usuário quantos anos faltam para ele se tornar idoso
 
+
 print("Digite o ano do seu nascimento:")
 ano = (int(input()))
 idade = 2021 - ano
