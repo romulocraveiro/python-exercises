@@ -12,13 +12,13 @@ print("Digite o ano do seu nascimento:")
 ano = (int(input()))
 idade = 2021 - ano
 print("Você tem", idade, "anos de idade.")
-
 if idade<16:
     print("Faltam", (65-idade), "anos para você se tornar idoso.")
-if idade <=17 and idade >=13:
+if idade >=13 and idade <=17:
     print("Adolescente.")
 else:
-    if idade>=18 and idade<=64:
+    if idade >=18 and idade <=64:
         print("Adulto.")
-    if idade>=65:
+    if idade >=65:
         print("Idoso.")
+
