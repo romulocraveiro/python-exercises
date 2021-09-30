@@ -17,27 +17,26 @@ print("\nAgora, escolha uma operação: digite 1 para soma, 2 para subtração, 
 operacao = input()
 # Exceções: 1) E se o usuário digitar algo diferente do que foi pedido (seja o que for)?
 if operacao != "1" or operacao != "2" or operacao != "3" or operacao != "4":
-    print("Opção inválida! Digite apenas o número. Recarregue a página e tente novamente.\n")
+    print("Opção inválida! Digite apenas o número para escolher a operação. Recarregue a página e tente novamente.\n")
+if operacao == "1":
+    print("Você digitou 1 para soma.")
+    soma = numero1 + numero2
+    print("Resultado:", soma)
+if operacao == "2":
+    print("Você digitou 2 para subtração.")
+    subtracao = numero1 - numero2
+    print("Resultado:", subtracao)
+if operacao == "3":
+    print("Você digitou 3 para multiplicação.")
+    multiplicacao = numero1 * numero2
+    print("Resultado:", multiplicacao)
+if operacao == "4":
+    print("Você digitou 4 para divisão.")
+    divisao = numero1 / numero2
+    print("Resultado:", divisao)
 else:
-    if operacao == "1":
-        print("Você digitou 1 para soma.")
-        soma = numero1 + numero2
-        print("Resultado:", soma)
-    if operacao == "2":
-        print("Você digitou 2 para subtração.")
-        subtracao = numero1 - numero2
-        print("Resultado:", subtracao)
-    if operacao == "3":
-        print("Você digitou 3 para multiplicação.")
-        multiplicacao = numero1 * numero2
-        print("Resultado:", multiplicacao)
-    if operacao == "4":
-        print("Você digitou 4 para divisão.")
-        divisao = numero1 / numero2
-        print("Resultado:", divisao)
+    print("Opção inválida! Digite apenas o número. Recarregue a página e tente novamente.\n")
     
         
 
-        
-
-
+    
