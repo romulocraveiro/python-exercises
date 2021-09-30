@@ -11,7 +11,7 @@
 # 3. Criar um menu de entrada:   "1" [Calcular] - "2" [Sair]
 # 3.1 - Programa só deve fechar se Usuário escolher "Sair" 
 
-print("Digite 1 para CALCULAR e 2 para SAIR:" )
+print("Digite 1 para CALCULAR ou qualquer outro número para SAIR:" )
 num = (int(input()))
 while num == 1:
     print("\nDigite um número:")
@@ -23,7 +23,8 @@ while num == 1:
     operacao = input()
 # Exceções: 1) E se o usuário digitar algo diferente do que foi pedido (seja o que for)?
     if operacao != "1" and operacao != "2" and operacao != "3" and  operacao != "4":
-        print("Opção inválida! Digite apenas um número de 1 a 4. Recarregue a página e tente novamente.\n")
+        print("Opção inválida! Digite apenas um número de 1 a 4.\n")
+        print("Vamos recomeçar:\n")
     else:
         if operacao == "1":
             print("Você digitou 1 para soma.")
@@ -36,10 +37,9 @@ while num == 1:
             print("Resultado:", numero1 * numero2 )
         if operacao == "4":
             print("Você digitou 4 para divisão.")
-            print("Resultado:",numero1 / numero2)
-
-        
-    print("Digite 1 para CALCULAR e 2 para SAIR:" ) # Para estar dentro do "while", tem que ter essa indentação para esta linha e a próxima, que por sua vez é responsável por dar ao usuário a escolha de sair do loop.
+            print("Resultado:", numero1 / numero2)
+    
+    print("Digite 1 para CALCULAR ou qualquer outro número para SAIR:" ) # Para estar dentro do "while", tem que ter essa indentação para esta linha e a próxima, que por sua vez é responsável por dar ao usuário a escolha de sair do loop.
     num = (int(input()))
 
 print("\n\n******Programa finalizado.******\n\n")    

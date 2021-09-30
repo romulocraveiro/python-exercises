@@ -38,7 +38,7 @@ else: # O código rodaria mesmo sem esta linha de comando, contanto que de desfi
 
 print("\n\n******Programa finalizado.******\n\n")
 
-# Se, em vez de usar o primeiro if do código acima (com "and") eu simplesmente usasse o bloco de "else" abaixo, o programa faria os cálculos mas imprimiria a mensagem abaixo exceto se a escolha do usuário fosse "4". Provavelmente porque o "else" estaria ligado ao último if.
+# Se, em vez de usar o primeiro if do programa (com o operador lógico "and") eu simplesmente usasse o bloco de "else" no final, exemplificado abaixo, o programa faria os cálculos mas imprimiria a mensagem abaixo exceto se a escolha do usuário fosse "4". Provavelmente porque o "else" estaria ligado ao último if.
 
 # else:
 #     print("Opção inválida! Digite apenas o número. Recarregue a página e tente novamente.\n")
