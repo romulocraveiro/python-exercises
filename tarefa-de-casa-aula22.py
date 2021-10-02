@@ -8,7 +8,7 @@
 
 # Obs.: O professor nos deixou livres para adaptar o assunto do exercício, que foi elaborado para a Semana Santa.
 
-print('Digite um texto sobre o rock. Mas atenção: use a palavra "rock" quantas vezes puder e o sistema imprimirá um verso de uma música o mesmo número de vezes. Quer ver?')
+print('Digite um texto sobre o rock. Mas atenção: use a palavra "rock" quantas vezes puder e o sistema imprimirá o verso de uma música o mesmo número de vezes. Quer ver?')
 texto = input()
 minusculo = texto.lower()
 armazena = minusculo.split(" ")
