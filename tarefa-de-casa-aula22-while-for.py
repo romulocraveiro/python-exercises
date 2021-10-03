@@ -25,7 +25,7 @@ while num == 1:
     for item in armazena:
         if item == "rock":
             print("It's a long way to the top if you wanna rock'n'roll!")
-    print("\nDigite 1 para CALCULAR ou qualquer outro número para SAIR:" )
+    print("\nDigite 1 para CONTINUAR ou qualquer outro número para SAIR:" )
     num = (int(input()))
 print("\n\n=======THE END=======\n\n")
 # Aqui vai uma sugestão de texto para você rodar o programa:
