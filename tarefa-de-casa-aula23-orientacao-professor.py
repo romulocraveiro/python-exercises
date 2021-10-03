@@ -39,7 +39,7 @@ while num == 1:
         if operacao == "3":            
             print("Resultado da multiplicação:", numero1 * numero2)
         if operacao == "4":
-            div = divisao(numero1, numero2) # Aqui sim, diferente do arquivo tarefa-de-cas-aula-23-funcoes.py, fazemos a função receber os dois números. Se colocássemos uma variável como parâmetro, não estaríamos fazendo a função receber os dois números, como foi pedido no item 2.2.2 do exercício. 
+            div = divisao(numero1, numero2) # Aqui sim, diferente do arquivo tarefa-de-casa-aula-23-funcoes.py, fazemos a função receber os dois números. Se colocássemos uma variável como parâmetro, não estaríamos fazendo a função receber os dois números, como foi pedido no item 2.2.2 do exercício. 
             print("Resultado da divisão:", div)
     print("\nDigite 1 para CALCULAR ou qualquer outro número para SAIR:") 
     num = (int(input()))
