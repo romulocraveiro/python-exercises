@@ -20,7 +20,7 @@ def calcular(operacao):
         resultado = numero1 / numero2
         return resultado
     else:
-        return NoReturn # Uma solução para que parasse de imprimir "Resultado: none" quan do o usuário selecionava outras operações.
+        return NoReturn # Uma solução para que parasse de imprimir "Resultado: none" quando o usuário selecionasse outras operações.
         
 print("Digite 1 para CALCULAR ou qualquer outro número para SAIR:" )
 num = (int(input()))
