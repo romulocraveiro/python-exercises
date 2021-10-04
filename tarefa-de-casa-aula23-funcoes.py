@@ -13,16 +13,11 @@
 # 3. Criar um menu de entrada:   "1" [Calcular] - "2" [Sair]
 # 3.1 - Programa só deve fechar se Usuário escolher "Sair" 
 
-from typing import NoReturn
-
-def calcular(operacao):
-    if operacao == "4":
+def divisao(numero1, numero2):
         resultado = numero1 / numero2
         return resultado
-    else:
-        return NoReturn # Uma solução para que parasse de imprimir "Resultado: none" quando o usuário selecionasse outras operações.
         
-print("Digite 1 para CALCULAR ou qualquer outro número para SAIR:" )
+print("\nDigite 1 para CALCULAR ou qualquer outro número para SAIR:" )
 num = (int(input()))
 while num == 1:
     print("\nDigite um número:")
@@ -34,20 +29,19 @@ while num == 1:
     operacao = input()
 # Exceções: 1) E se o usuário digitar algo diferente do que foi pedido (seja o que for)?
     if operacao != "1" and operacao != "2" and operacao != "3" and  operacao != "4":
-        print("\nOpção inválida! Digite apenas um número de 1 a 4.\n")
+        print("Opção inválida! Digite apenas um número de 1 a 4.\n")
         print("Vamos recomeçar:\n")
     else:
         if operacao == "1":            
-            print("Resultado:", numero1 + numero2)
+            print("Resultado da soma:", numero1 + numero2)
         if operacao == "2":         
-            print("Resultado:", numero1 - numero2)
+            print("Resultado da subtração:", numero1 - numero2)
         if operacao == "3":            
-            print("Resultado:", numero1 * numero2 )
-        else:
-            resultado = calcular(operacao) # Colocando uma variável como parâmetro, não estaremos fazendo a função receber os dois números, como foi pedido no item 2.2.2 do exercício. O professor não recomenda esse procedimento. No lugar, deveria ser:
-            # resultado = calcular(numero1, numero2)
-            print("Resultado:", resultado)
-    print("Digite 1 para CALCULAR ou qualquer outro número para SAIR:") # Para estar dentro do "while", tem que ter essa indentação para esta linha e a próxima, que por sua vez é responsável por dar ao usuário a escolha de sair do loop.
+            print("Resultado da multiplicação:", numero1 * numero2)
+        if operacao == "4":
+            div = divisao(numero1, numero2) # Aqui fazemos a função receber os dois números. 
+            print("Resultado da divisão:", div)
+    print("\nDigite 1 para CALCULAR ou qualquer outro número para SAIR:") 
     num = (int(input()))
 
 print("\n\n******Programa finalizado.******\n\n")    
