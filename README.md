@@ -2,7 +2,7 @@
 
 Instituto Conhecimento Liberta
 
-Curso de Programação e Algoritmos - Módulo 1
+Curso de Programação e Algoritmos - Módulo Básico
 
 Professor: Geneflides Laureno
 
